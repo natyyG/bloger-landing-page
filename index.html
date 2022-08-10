@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cont">
+      <div class="mobilenav">
+        <ul>
+          <li><img src="./images/logo.svg" alt=""></li>
+          <li><img src="./images/icon-close.svg" alt="" id="close"></li>
+          <li><img src="./images/icon-hamburger.svg" alt="" id="humburgerbtn"></li>
+        </ul>
+        <div id="navbar">
+          <ul class="menus" id="menus">
+            <li id="product">Product</li>
+            <ul id="productItems" class="items">
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+            <li id="company">Company</li>
+            <ul id="companyItems" class="items">
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+            <li id="connect">Connect</li>
+            <ul id="connectItems" class="items">
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>Linkedin</li>
+            </ul>
+            <li><hr></li>
+            <li>Login</li>
+            <li><button class="actbt">Sign Up</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navigation">
+        <ul class="main" id="main">
+          <li><img src="./images/logo.svg" alt=""></li>
+          <li id="desktopProduct" class="deskmen">Product</li>
+            <ul id="promenu" class="item">
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          <li id="desktopCompany" class="deskmen">Company</li>
+            <ul class="item" id="compmenu">
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          <li id="desktopConnect" class="deskmen">Connect</li>
+            <ul class="item" id="connmenu">
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+        </ul>
+        <ul class="button navbtn">
+          <button class="nonactbtn">Login</button>
+          <button class="actbtn">Sign Up</button>
+        </ul>
+      </div>
+      <div class="intro">
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+        <div class="button">
+          <button class="actbtn">Start for Free</button>
+          <button>Learn More</button>
+        </div>
+      </div>
+      
+    </div>
+    <div class="future">
+      <h1>Designed for the future</h1>
+      <div class="feature">
+        <div class="detail">
+          <h2>Introducing an extensible editor</h2>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+            change the looks of a blog.
+          </p>
+          <h2 class="robust">Robust Content management</h2>
+          <p>
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+        <img src="./images/illustration-editor-desktop.svg" alt="">
+      </div>
+      </div>
+      <div class="state">
+        <div class="statecont">
+          <img src="./images/illustration-phones.svg" alt="">
+          <div class="detail">
+            <h1>State of the Art Infrastructure</h1>
+            <p>
+              With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+              This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="tooling">
+        <div class="feature">
+          <img src="./images/illustration-laptop-desktop.svg" alt="">
+          <div class="detail">
+            <h2>Free, open, simple</h2>
+            <p>
+              Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+            </p>
+            <h2 class="robust">Powerful tooling</h2>
+            <p>
+              Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <img src="./images/logo.svg" alt="">
+        <ul>
+          <li><p class="footerTitle">Product</p>
+            <ul>
+              <li class="menu">Overview</li>
+              <li class="menu">Pricing</li>
+              <li class="menu">marketplace</li>
+              <li class="menu">Features</li>
+              <li class="menu">Integrations</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li><p class="footerTitle">Company</p>
+            <ul>
+              <li class="menu">About</li>
+              <li class="menu">Team</li>
+              <li class="menu">Blog</li>
+              <li class="menu">Careers</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li><p class="footerTitle">Connect</p>
+            <ul>
+              <li class="menu">Contact</li>
+              <li class="menu">Newsletter</li>
+              <li class="menu">LinkedIn</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+
+  
+
+  
+<script src="./app.js"></script>
+</body>
+</html>
